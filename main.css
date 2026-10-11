@@ -1,0 +1,82 @@
+
+nav {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+
+}
+
+nav li {
+    display: table;
+    table-layout: fixed;
+    list-style: none;
+    font-size: 10px;
+    font-family: 'Heebo', sans-serif;
+    padding: 5px 20%;
+    color: rgb(132, 130, 130);
+
+  
+}
+
+#logo{
+    margin: 0;
+    position:absolute;
+    font-size: small;
+    font-weight: lighter;
+    font-family: 'Heebo', sans-serif;
+
+
+}
+.logo-icon{
+    width: 5%;
+    left:1px;
+    position: relative;
+}
+nav ul {
+    display: table-cell;
+
+}
+.page{
+    position: absolute;
+    left: 20%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.page h1{
+    color: rgb(97, 95, 95);
+    font-weight: 100;
+    left: 20%;
+    position: relative;
+    top:90px;
+
+
+}
+.page input{
+    width: 450px;
+    height: 50px;
+    border: none;
+
+}
+.buttons{
+    padding: 5px 10px;
+    margin: 100px 0;
+    border: solid 1px rgb(226, 221, 221);
+    border-radius: 15px;
+}
+button{
+    border-radius: 25px;
+    font-size: 10px;
+    border: 1px solid none;
+    position: relative;
+    color: rgb(97, 95, 95);
+    background-color: transparent;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+svg{
+    width: 10px;
+}
+#voice{
+    left:20%;
+    background-color: rgb(225, 223, 223);
+}

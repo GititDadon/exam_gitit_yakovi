@@ -1,0 +1,74 @@
+
+ body{
+    background:linear-gradient(#EFD1FA,#FFE7D7,#FFFFFF) ;
+    width:100vw;
+    height:100vh;
+    position: relative;
+    font-family: 'Heebo', sans-serif;
+
+
+ }
+ img{
+   width:100px;
+   height:130px;
+   position: absolute;
+   border-radius: 12px;
+   
+ }
+ .images{
+    position: relative;
+    display: inline-block;
+    width: 100vw;
+    left: 20%;
+
+  
+ }
+ .page{
+     position: relative;
+
+ }
+ .page h1 {
+   position: relative;
+   left:40%;
+   top:10%;
+   font-weight:400;
+ }
+ .page h2{
+   position: relative;
+   font-weight:400;
+   left: 20%;
+   font-size: x-small;
+
+ }
+ #back{
+   border-radius: 50px;
+   background-color: aliceblue;
+   color: grey;
+   background-color: rgb(192, 189, 189);
+   position: relative;
+   left: 70%;
+ }
+ #next{
+   border-radius: 50px;
+   background-color: aliceblue;
+   position: relative;
+   left:69%;
+
+
+ }
+ figure{
+   width:100px;
+   height: 190px;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+ }
+ figcaption{
+   color: rgb(128, 126, 126);
+   position: relative;
+   top: 130px;
+   font-size: 8px;
+   left:20%;
+   font-family:Georgia, 'Times New Roman', Times, serif;
+   
+ }
