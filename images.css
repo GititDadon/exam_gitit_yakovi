@@ -40,7 +40,8 @@
    font-size: x-small;
 
  }
- #back{
+ 
+ .back{
    border-radius: 50px;
    background-color: aliceblue;
    color: grey;
@@ -48,14 +49,82 @@
    position: relative;
    left: 70%;
  }
- #next{
+  .next{
+   border: 1px solid palegreen;
    border-radius: 50px;
-   background-color: aliceblue;
+   background-color: rgb(59, 101, 138);
    position: relative;
    left:69%;
 
 
  }
+ 
+
+nav {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    white-space: nowrap;
+
+}
+
+nav li {
+    display: table;
+    table-layout: fixed;
+    list-style: none;
+    font-size: 10px;
+    font-family: 'Heebo', sans-serif;
+    padding: 5px 20%;
+    color: rgb(132, 130, 130);
+
+  
+}
+
+#logo{
+    margin: 0;
+    position:absolute;
+    font-size: small;
+    font-weight: lighter;
+    font-family: 'Heebo', sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 35px;
+
+
+
+}
+#logo img{
+  width: 90px;
+  height: 10px;
+}
+
+.login {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    white-space: nowrap;
+}
+
+.login li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.Login {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 25px;
+    margin-right: 8px;
+}
+
+.sign-up {
+    background-color: transparent;
+    color: black;
+    border-radius: 25px;
+}
+
  figure{
    width:100px;
    height: 190px;
@@ -72,3 +141,62 @@
    font-family:Georgia, 'Times New Roman', Times, serif;
    
  }
+ 
+
+.discover {
+    width: 90%;
+    max-width: 900px;
+    margin: 10px 200px;
+    position: relative;
+    font-size: 0;
+}
+
+.discover h2 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+
+.discover .pic,
+.discover .pic2 {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    position: static;
+    margin: 0;
+    padding: 0;
+}
+
+.discover .discover-item {
+    display: block;
+    width: 100%;
+    min-height: 60px;
+    margin: 0 0 15px 0;
+    padding: 0;
+    position: relative;
+    white-space: nowrap;
+}
+
+.discover .discover-item img {
+    display: inline-block;
+    position: static;
+    width: 48px;
+    height: 48px;
+    max-width: none;
+    margin: 0;
+    object-fit: cover;
+    border-radius: 12px;
+    vertical-align: middle;
+}
+
+.discover .discover-item span {
+    display: inline-block;
+    position: static;
+    vertical-align: middle;
+    margin-left: 12px;
+    font-size: 14px;
+    color: #888;
+    white-space: normal;
+    max-width: calc(100% - 65px);
+}
